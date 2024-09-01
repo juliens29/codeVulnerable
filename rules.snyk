@@ -1,1 +1,7 @@
+# .snyk
+policy:
+  rules:
+    - id: SNYK-JS-EXPRESS-174738
+      action: fail
+      version: '<=4.15.0'
 
